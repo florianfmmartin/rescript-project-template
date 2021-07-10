@@ -4,7 +4,8 @@
   "scripts": {
     "build": "rescript",
     "clean": "rescript clean -with-deps",
-    "start": "rescript build -w"
+    "watch": "rescript build -w",
+    "start": "node ./lib/js/src/App.bs.js"
   },
   "keywords": [
     "rescript"
